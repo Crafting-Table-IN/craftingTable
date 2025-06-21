@@ -1,23 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import icon2 from "../../images/icon/m_01.svg";
-import icon3 from "../../images/icon/m_02.svg";
-import icon4 from "../../images/icon/m_03.svg";
-import icon5 from "../../images/icon/m_04.svg";
-import icon6 from "../../images/icon/m_05.svg";
-import icon7 from "../../images/icon/m_06.svg";
-import icon8 from "../../images/icon/m_07.svg";
-import icon9 from "../../images/icon/m_08.svg";
-import icon10 from "../../images/icon/m_09.svg";
-import icon11 from "../../images/icon/m_10.svg";
-import icon12 from "../../images/icon/m_11.svg";
 import logo from "../../images/logo/logo-white.svg";
 import logo2 from "../../images/logo/logo-black02.svg";
-import clogo1 from "../../images/logo/client-logo.svg";
-import clogo2 from "../../images/logo/client-logo2.svg";
-import avatar from "../../images/bg/avatar.png";
-import quote from "../../images/icon/quote.png";
-import mImg from "../../images/casestudy/mm_img.png";
 import MobileMenu from "../MobileMenu/MobileMenu";
 
 const Header2 = (props) => {
@@ -79,29 +63,34 @@ const Header2 = (props) => {
                     </Link>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/">
+                    <a onClick={ClickHandler} href="#company">
                       <span>company</span>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/service">
+                    <a onClick={ClickHandler} href="#services">
                       <span>Services</span>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/casestudy">
+                    <a onClick={ClickHandler} href="#casestudy">
                       <span>Casestudy</span>
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/blog">
-                      <span>Blog</span>
-                    </Link>
+                    <a onClick={ClickHandler} href="#process">
+                      <span>Workflow</span>
+                    </a>
                   </li>
                   <li>
-                    <Link onClick={ClickHandler} to="/contact">
+                    <a onClick={ClickHandler} href="#team">
+                      <span>Team</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a onClick={ClickHandler} href="#contact">
                       <span>Contact</span>
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -149,9 +138,9 @@ const Header2 = (props) => {
               </button>
             </div>
             <div className="header-contact d-none d-md-block">
-              <Link
+              <a
                 onClick={ClickHandler}
-                to="/contact"
+                href="#contact"
                 className="thm-btn thm-btn--header btn-effect_1"
               >
                 Let’s talk
@@ -181,7 +170,7 @@ const Header2 = (props) => {
                     />
                   </svg>
                 </span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

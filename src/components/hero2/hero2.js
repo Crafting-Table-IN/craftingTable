@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { Fade } from "react-awesome-reveal";
-import Bg from '../../images/bg/hero-bg01.jpg'
+import Bg from '../../images/bg/hero.jpg'
 import Bg2 from '../../images/shape/hero-glassisom.png'
 import hImg from '../../images/hero/hero-img01.png'
 import shape1 from '../../images/shape/hero-shape01.png'
@@ -38,14 +38,14 @@ const Hero2 = (props) => {
                                 <Fade direction='up' triggerOnce={'false'} duration={1800} delay={9}>
                                     <div>
                                         <div className="xb-btn wow mt-60 fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
-                                            <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--white_icon">
+                                            <a onClick={ClickHandler} href="#contact" className="thm-btn thm-btn--fill_icon thm-btn--white_icon">
                                                 <div className="xb-item--hidden"><span className="xb-item--hidden-text">Start Crafting</span></div>
                                                 <div className="xb-item--holder">
                                                     <span className="xb-item--text">Start Crafting</span>
                                                     <div className="xb-item--icon"><i className="far fa-long-arrow-right"></i></div>
                                                     <span className="xb-item--text">Start Crafting</span>
                                                 </div>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </Fade>

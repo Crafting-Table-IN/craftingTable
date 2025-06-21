@@ -3,8 +3,8 @@ import pImg2 from '../images/testimonial/sa-tes02.jpg'
 import pImg3 from '../images/testimonial/sa-tes03.jpg'
 import pImg4 from '../images/testimonial/sa-tes04.jpg'
 import pImg5 from '../images/project/img01.png'
-import pImg6 from '../images/project/img02.png'
-import pImg7 from '../images/project/img03.png'
+// import pImg6 from '../images/project/img03.jpg'
+import pImg7 from '../images/project/img02.jpg'
 
 
 
@@ -68,7 +68,7 @@ const Project = [
     },
     {
         Id: '5',
-        pImg: pImg5,
+        pImg: "https://innomax-react.netlify.app/static/media/img01.70cb4c0d247a44e262bc.png",
         icon:icon1,
         title: 'DTwin | Smarter Health, Without the Guesswork',
         slug: 'Delivering-remote-solutions',
@@ -79,7 +79,7 @@ const Project = [
     },
     {
         Id: '6',
-        pImg: pImg6,
+        pImg: "https://innomax-react.netlify.app/static/media/img02.22cd382e2525f26c227f.png",
         icon:icon2,
         title: 'Thrift Store | E‑Commerce with a Sustainable Twist',
         slug: 'Real-time-health-monitoring',
@@ -90,7 +90,7 @@ const Project = [
     },
     {
         Id: '7',
-        pImg: pImg7,
+        pImg: "https://innomax-react.netlify.app/static/media/img03.fd4625cdedbf2fe8e46a.png",
         icon:icon3,
         title: 'Raksha Net | Stay Safe. Stay Connected.',
         slug: 'Simple-time-management',
@@ -101,7 +101,7 @@ const Project = [
     },
     {
         Id: '8',
-        pImg: pImg6,
+        pImg: pImg5,
         icon:icon2,
         title: 'GST 360 | GST Filing Made Effortless',
         slug: 'Real-time-health-monitoring',
@@ -112,7 +112,7 @@ const Project = [
     },
     {
         Id: '9',
-        pImg: pImg6,
+        pImg: pImg7,
         icon:icon2,
         title: 'Release Tool | Streamlined Releases, Zero Chaos',
         slug: 'Real-time-health-monitoring',
